@@ -14,4 +14,4 @@ eureka:
 eureka:
   client:
     serviceUrl:
-      defaultZone: http://petclinic-config-server-service:8761/eureka/
+      defaultZone: http://petclinic-discovery-server-service:8761/eureka/
