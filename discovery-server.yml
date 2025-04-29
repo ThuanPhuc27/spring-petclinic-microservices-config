@@ -3,7 +3,7 @@
 
 eureka:
   instance:
-    hostname: localhost
+    hostname: petclinic-discovery-server-service
   # standalone mode
   client:
     registerWithEureka: false
