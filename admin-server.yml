@@ -2,6 +2,8 @@ server:
   port: 9090
 
 eureka:
+  instance:
+    preferIpAddress: true
   client:
     serviceUrl:
       defaultZone: http://petclinic-discovery-server-service:8761/eureka/

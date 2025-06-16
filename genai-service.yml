@@ -6,10 +6,12 @@
 server:
   port: 8084
 eureka:
+  instance:
+    preferIpAddress: true
   client:
     serviceUrl:
       defaultZone: http://petclinic-discovery-server-service:8761/eureka/
 management:
   zipkin:
     tracing:
-      endpoint: http://tracing-server:9411/api/v2/spans
+      endpoint: http://tracing-server-service:9411/api/v2/spans
