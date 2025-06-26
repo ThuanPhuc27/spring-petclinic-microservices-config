@@ -9,4 +9,4 @@ spring:
 eureka:
   client:
     serviceUrl:
-      defaultZone: http://petclinic-discovery-server-service:8761/eureka/
+      defaultZone: http://tracing-server-service.default.svc.cluster.local:8761/eureka/
